@@ -5,8 +5,8 @@ const Fortnite = () => {
   const [shop, setShop] = useState([]);
   const [filteredShop, setFilteredShop] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
-  const [loading, setLoading] = useState(true);
-
+// eslint-disable-next-line no-unused-vars
+const [loading, setLoading] = useState(false);
   const API_KEY = '08bf563f-94f051fe-53ee5e2e-460e350a';
 
   useEffect(() => {
